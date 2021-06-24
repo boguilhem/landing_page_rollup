@@ -1,5 +1,5 @@
 {
-  "name": "landing_page_done",
+  "name": "landing_page_rollup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/boguilhem/landing-page-plusdinbank/issues"
   },
-  "homepage": "https://github.com/boguilhem/landing-page-plusdinbank#readme"
+  "homepage": "https://github.com/boguilhem/landing-page-plusdinbank#readme",
+  "devDependencies": {
+    "rollup": "^2.52.2"
+  }
 }
