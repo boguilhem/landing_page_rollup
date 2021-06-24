@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "rollup ./app/js/script.js --file ./build/bundle.js --format es --watch",
+    "build": "rollup ./app/js/script.js --file ./build/bundle.js --format es",
+    "help": "rollup --help"
   },
   "repository": {
     "type": "git",
